@@ -1,0 +1,25 @@
+workflows:
+  flutter-build:
+    name: Build Flutter APK & IPA
+    max_build_duration: 60
+    environment:
+      flutter: stable
+      xcode: latest
+      vars:
+        PACKAGE_NAME: "com.example.technican"  # غيّرها لو عندك package name مختلف
+    scripts:
+      - name: Install dependencies
+        script: |
+          flutter pub get
+
+      - name: Build Android APK (release)
+        script: |
+          flutter build apk --release
+
+      - name: Build iOS (release)
+        script: |
+          flutter build ios --release --no-codesign
+
+    artifacts:
+      - build/app/outputs/flutter-apk/app-release.apk
+      - build/ios/iphoneos/*.app
