@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1038345833027",
+    "firebase_url": "https://sal7ly-app-3a845-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "sal7ly-app-3a845",
+    "storage_bucket": "sal7ly-app-3a845.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038345833027:android:2ae38a5c39536aedbe22f6",
+        "android_client_info": {
+          "package_name": "com.example.sal7ly"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZHlDQBDRtQmEfu0Lrt_JJT8UV5QIYrZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1038345833027:android:a0dd91b612b048c0be22f6",
+        "android_client_info": {
+          "package_name": "com.example.technican"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZHlDQBDRtQmEfu0Lrt_JJT8UV5QIYrZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
